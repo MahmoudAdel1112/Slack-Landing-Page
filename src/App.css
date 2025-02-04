@@ -1,0 +1,33 @@
+.first-child{
+  font-weight: bold;
+  font-size: 0.875rem;
+  cursor: default;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 5px;
+}
+.secondary-text{
+  font-size: .875rem ;
+  white-space: normal; 
+  word-wrap: break-word;
+}
+.primary-text{
+  font-size: .9375rem;
+}
+
+.text-hover:hover{
+  color: #1264a3;
+}
+.white-bg{
+  background-color: white !important;
+}
+@media screen and (min-width: 960px) {
+  .grid-cont {
+    width: 60vw;
+  }
+}
+@media screen and (min-width: 960px) {
+  .grid-cont2 {
+    width: 40vw;
+  }
+}
